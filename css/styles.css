@@ -180,12 +180,27 @@ address .contacts {
   color: var(--main-dark-color);
   cursor: pointer;
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  background: var(--secondary-bcg-color);
+  border-radius: 4px;
 }
+
 .filter-button:hover,
-.filter-button:focus {
+.filter-button:focus,
+.filter-button.current {
   background-color: var(--accent-color);
   color: var(--main-light-color);
 }
-.projects h2 {
-  color: var(--main-dark-color);
+.projects .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects .text {
+  font-size: 16px;
+  line-height: 1.88;
 }
