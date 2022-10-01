@@ -204,3 +204,6 @@ address .contacts {
   font-size: 16px;
   line-height: 1.88;
 }
+.projects-item {
+  border: 1px solid #eeeeee;
+}
