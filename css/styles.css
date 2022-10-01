@@ -57,6 +57,31 @@ a {
 .contacts:focus {
   color: var(--accent-color);
 }
+
+/* Общие для всех */
+.title {
+  color: var(--main-dark-color);
+}
+.section-title {
+  color: var(--main-dark-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /* Секция-герой */
 .hero {
   background-color: var(--section-background-color);
@@ -89,56 +114,24 @@ a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.section-title {
-  color: var(--main-dark-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-/* Наші переваги */
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-.features .title {
-  color: var(--main-dark-color);
+
+/* Наші переваги (benefits) */
+.benefits .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
-.features-text {
+.benefits-text {
   font-size: 14px;
   line-height: 1.7;
 }
 
-/* Чем занимаемся */
-.benefits .title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-}
+/* Чем занимаемся (features) */
 
 /* team */
 .team {
   background-color: var(--secondary-bcg-color);
-}
-.team .section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-}
-.team .title {
-  color: var(--main-dark-color);
 }
 .team .team-member {
   background: var(--background-color);
@@ -155,6 +148,7 @@ a {
   font-size: 16px;
   line-height: 1.18;
 }
+
 /* Футер */
 footer {
   background-color: var(--section-background-color);
